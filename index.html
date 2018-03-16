@@ -5,7 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mina:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body class="main">
 	<header class="header header__main">
@@ -40,73 +40,140 @@
 			</nav>
 		</div>		
 	</header>
-	<div class="main-content">
+	<div class="main-content" style="display: flex; margin: auto; flex-direction: row; justify-content: center; flex-wrap: wrap;">
 		<div class="main-content__text">
-			<p class="main-content__text-h1"><b>Avada</b> ipsum</p>
+			<p class="main-content__text-h1"><b>Avada</b> sum</p>
 			<p class="main-content__text-p">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit.<br>Obcaecati fuga voluptatem, explicabo<br>iusto itaque numquam ipsa!</p>
 			<div class="main-content__button-sr"><p class="main-content__text-p"><a href=""><i class="fas fa-chevron-circle-left"></i></a><b>ipsum dolor</b></p></div>
-			<button class="main-content__button">button</button>
-			<p>Lorem ipsum dolor sit.</p>
-			<div class="main-content__button-sr"><p><a href=""><i class="fas fa-chevron-circle-left"></i></a>Lorem ipsum dolor sit.</p></div>	
+			<a href="#">
+				<button class="main-content__button">button by</button>
+			</a>
+			<div class="main-content__button-sm"><p>Lorem ipsum dolor sit.</p><p><a href=""><i class="fas fa-chevron-circle-left main-content__button-sm"></i></a>Lorem ipsum.</p></div>	
 		</div>
 		<div class="main-content__img">
 			<img src="img/appledevice2.png" alt="computer image">
 		</div>
 	</div>
 	<div class="container">
-		<div class="container__header">
-			<h1>Lorem ipsum dolor</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iste? ipsum dolor sit amet.</p>
+		<div class="container container__header">
+			<h1 class="container__h1">Lorem ipsum dolor</h1>
+			<p class="container__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 		</div>
-		<div class="container__image">
-			<img src="img/content/avada.png" alt="">
-			<img src="img/content/enfold.png" alt="">
-			<img src="img/content/newspaper copy 2.png" alt="">
-			<img src="img/content/sahifa copy 3.png" alt="">
-			<img src="img/content/salient copy.png" alt="">
-			<img src="img/content/smartmag copy 2.png" alt="">
-			<img src="img/content/the 7.png" alt="">
-			<img src="img/content/udesign.png" alt="">
-			<img src="img/content/avada.png" alt="">
-			<img src="img/content/enfold.png" alt="">
-			<img src="img/content/newspaper copy 2.png" alt="">
-			<img src="img/content/sahifa copy 3.png" alt="">
-			<img src="img/content/salient copy.png" alt="">
-			<img src="img/content/smartmag copy 2.png" alt="">
-			<img src="img/content/the 7.png" alt="">
-		</div>
+		<ul class="container container__image">
+			<li class="container__image-li"><img src="img/content/avada.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/enfold.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/newspaper copy 2.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/sahifa copy 3.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/salient copy.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/smartmag copy 2.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/the 7.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/udesign.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/avada.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/enfold.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/newspaper copy 2.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/sahifa copy 3.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/salient copy.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/smartmag copy 2.png" alt=""></li>
+			<li class="container__image-li"><img src="img/content/the 7.png" alt=""></li>
+		</ul>
 	</div>
-	<div class="container-link">
-		<div class="container-link__header">
-			<p>Lorem ipsum dolor sit amet.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-		</div>
-		<div class="container-link__main">
-			<div class="container-link__content">
-				<i class="fas fa-question"></i>
-				<p>Lorem ipsum dolor.</p>
-				<p>Lorem ipsum dolor.</p>
-				<button></button><p>Lorem ipsum dolor.</p>
+	<div class="container-links" >
+		<div class="container-link">
+			<div class="container-link__header">
+				<p class="container-link__content-h1">Lorem ipsum dolor sit amet.</p>
+				<p class="container-link__content-p">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 			</div>
-			<div class="container-link__content"></div>
-			<div class="container-link__content"></div>
-		</div>
+			<div class="container-link__main">
+				<div class="container-link__content">
+					<i class="fas fa-question container-link__content-i"></i>
+					<p class="container-link__content-pp">Lorem ipsum dolor.</p>
+					<p>Lorem ipsum dolor.</p>
+					<div>
+						<p class=""><a href=""><i class="fas fa-chevron-circle-left container-link__content-csh"></i></a>Lorem ipsum dolor.</p>
+					</div>
+				</div>
+				<div class="container-link__content">
+					<i class="fas fa-bold container-link__content-i"></i>s
+					<p class="container-link__content-pp">Lorem ipsum dolor.</p>
+					<p>Lorem ipsum dolor.</p>
+					<div>
+						<p class=""><a href=""><i class="fas fa-chevron-circle-left container-link__content-csh"></i></a>Lorem ipsum dolor.</p>
+					</div>
+				</div>
+				<div class="container-link__content">
+					<i class="far fa-comment-alt container-link__content-i"></i>
+					<p class="container-link__content-pp">Lorem ipsum dolor.</p>
+					<p>Lorem ipsum dolor.</p>
+					<div>
+						<p class=""><a href=""><i class="fas fa-chevron-circle-left container-link__content-csh"></i></a>Lorem ipsum dolor.</p>
+					</div>
+				</div>
+			</div>
+		</div>		
 	</div>
 	<footer>
 		<div class="footer_links">
-			
-		</div>
-		<div class="footer__line-green">
-			<p class="footer__line-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aperiam.</p>
-		</div>
-		<div class="footer__end">
-			<div class="footer__fpart">
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="" alt="">
+			<div class="footer__link">
+				<div class="footer__link_container">
+					<div class="footer__container">
+						<p class="footer__container_h1">ipsum dolor.</p>
+						<ul class="footer__container_ul">
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+						</ul>
+					</div>
+					<div class="footer__container">
+						<p class="footer__container_h1">Lorem ipsum.</p>
+						<ul class="footer__container_ul">
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>						
+						</ul>
+					</div>
+					<div class="footer__container">
+						<p class="footer__container_h1">lorem</p>
+						<ul class="footer__container_ul">
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>
+							<li class="footer__container_li"><a class="footer__container_li" href="">lorem</a></li>						
+						</ul>
+					</div>
+					<div class="footer__container">
+						<div>
+							<p class="footer__container_h1">Lorem ipsum dolor.</p>
+							<a href="">in</a>
+							<a href="">fb</a>
+							<a href="">tw</a>
+							<a href="">go</a>
+						</div>
+						<div>
+							<p class="footer__container_h1">Lorem ipsum dolor.</p>
+							<p class="footer__container_li">Lorem ipsum dolor.</p>
+							<div class="footer-search__input"><div class="footer-search__button">GO</div></div>
+							<div class="footer-search__input">
+                        		<input type="text" class="footer__input-search" placeholder="Search"> 
+                    		</div>
+						</div>
+					</div>				
+				</div>
 			</div>
-			<div class="footer__spart">copyrights 2018</div>
+			<div class="footer__line-green">
+				<p class="footer__line-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aperiam.</p>
+			</div>
+			<div class="footer__end">
+				<div class="footer__fpart">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+				</div>
+				<div class="footer__spart">copyrights 2018</div>
+			</div>
 		</div>
 	</footer>
 </body>
